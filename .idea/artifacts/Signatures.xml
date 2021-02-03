@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Signatures">
+    <output-path>$USER_HOME$/Desktop/Plugins/Server/plugins</output-path>
+    <root id="archive" name="Signatures.jar">
+      <element id="module-output" name="Signitures" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+    </root>
+  </artifact>
+</component>

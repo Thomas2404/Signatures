@@ -1,0 +1,19 @@
+main: tech.thomas2404.Signatures.Main
+name: Signatures
+version: 1.0
+author: Thomas2404
+description: Adds lore to items.
+
+commands:
+  Signature:
+    aliases: sig
+    usage: Opens the GUI of saved signatures if ran without an argument. If ran with an argument, it will add it to the held item.
+  SignatureSave:
+    aliases: sigsave
+    usage: Saves the argument to the GUI that is opened with /signature.
+  SignatureRemove:
+    aliases: sigremove
+    usage: Removes the last signature on the held item.
+  SigAdd:
+    usage: Don't run this command on it's own, the plugin will run the command when it needs to.
+
